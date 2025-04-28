@@ -1,6 +1,8 @@
 import pandas as pd
 import os
 
-data_path = os.abspath() + "Data/total_merged_data.pkl"
+# Get absolute path
+data_path = os.path.join(os.getcwd(), "Data", "total_merged_data.parquet")
 
-df = pd.read_csv(data_path)
+# Load parquet file
+df = pd.read_parquet(data_path)

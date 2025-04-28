@@ -1,3 +1,2 @@
-*.csv
-Data/*
+Data/**/*.parquet
 .DS_Store
