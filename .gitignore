@@ -1,2 +1,2 @@
-Data/**/*.parquet
 .DS_Store
+*.csv
