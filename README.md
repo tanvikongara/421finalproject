@@ -11,5 +11,9 @@ After cloning the repository locally, make a Data folder.
 Within the data folder, add the total_merged_data.parquet.
 
 
+# Our Process  
+  
+### 1. EDA  
+We started off our goal of classifying between all these different cyber attacks with EDA. We started off with basic data pre-processing and performed tasks like removing null values and exploring our features and targets. Then, we realized that we had a severe class imbalanced dataset with many features and many predictors. We're actually in a unique situation where
 
 
